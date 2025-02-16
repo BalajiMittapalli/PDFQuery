@@ -1,0 +1,20 @@
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore dependency directories
+node_modules/
+venv/
+__pycache__/
+
+# Ignore build outputs
+dist/
+build/
+.vscode/
+faiss_index/
